@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=addaarrssh&theme=dracula&column=7" alt="GitHub Trophies" />
+    <img src="https://github-trophies.devomb.com/?username=addaarrssh&theme=dracula&column=7&v=1" alt="GitHub Trophies" />
   </a>
 </p>
 
