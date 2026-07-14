@@ -98,8 +98,8 @@
 
 # 🎵 Currently Playing:
 <p align="center">
-  <a href="https://spotify-github-profile.kittinanx.com/">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_UID_HERE&cover_image=true&theme=dracula" alt="Spotify" />
+  <a href="https://github.com/kittinan/spotify-github-profile">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31xumi44re3ygig3maioxvf2tuk4&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false" alt="Spotify" />
   </a>
 </p>
 
