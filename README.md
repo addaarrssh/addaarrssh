@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&theme=dracula&height=220&section=header&text=Adarsh%20Sahu&fontSize=65" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&theme=dracula&height=220&section=header&text=Adarsh%20Sahu&fontSize=65&v=1" alt="Header Banner" />
 </p>
 
 # 💫 About Me:
