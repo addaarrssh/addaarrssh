@@ -13,6 +13,13 @@
 ![](https://nirzak-streak-stats.vercel.app/?user=addaarrssh&theme=dracula&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=addaarrssh&theme=dracula&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
+# 🐍 Contribution Snake:
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/addaarrssh/addaarrssh/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/addaarrssh/addaarrssh/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/addaarrssh/addaarrssh/output/github-contribution-grid-snake.svg" />
+</picture>
+
 ---
 [![](https://visitcount.itsvg.in/api?id=addaarrssh&icon=0&color=0)](https://visitcount.itsvg.in)
 
