@@ -43,28 +43,28 @@
 # 🚀 Featured Projects:
 <p align="center">
   <a href="https://github.com/addaarrssh/cartpulse-n8n">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=cartpulse-n8n&theme=dracula" alt="cartpulse-n8n" height="120" />
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=cartpulse-n8n&theme=dracula&v=1" alt="cartpulse-n8n" height="120" />
   </a>
   <a href="https://github.com/addaarrssh/energyshield-ai">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=energyshield-ai&theme=dracula" alt="energyshield-ai" height="120" />
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=energyshield-ai&theme=dracula&v=1" alt="energyshield-ai" height="120" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/addaarrssh/ipl-2026-winner-prediction">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=ipl-2026-winner-prediction&theme=dracula" alt="ipl-2026-winner-prediction" height="120" />
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=ipl-2026-winner-prediction&theme=dracula&v=1" alt="ipl-2026-winner-prediction" height="120" />
   </a>
   <a href="https://github.com/addaarrssh/stock-anomaly-detector">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=stock-anomaly-detector&theme=dracula" alt="stock-anomaly-detector" height="120" />
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=stock-anomaly-detector&theme=dracula&v=1" alt="stock-anomaly-detector" height="120" />
   </a>
 </p>
 
 # 📊 GitHub Stats:
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=addaarrssh&theme=dracula&hide_border=false&show_icons=true" alt="GitHub Stats" height="150" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=addaarrssh&theme=dracula&hide_border=false&layout=compact" alt="Top Languages" height="150" />
+  <img src="https://github-stats-extended.vercel.app/api?username=addaarrssh&theme=dracula&hide_border=false&show_icons=true&v=1" alt="GitHub Stats" height="150" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=addaarrssh&theme=dracula&hide_border=false&layout=compact&v=1" alt="Top Languages" height="150" />
 </p>
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=addaarrssh&theme=dracula&hide_border=false" alt="Contribution Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=addaarrssh&theme=dracula&hide_border=false&v=1" alt="Contribution Streak" />
 </p>
 
 # 🐍 Contribution Snake:
@@ -76,7 +76,7 @@
 
 # 💬 Quote of the Day:
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula" alt="Quote of the Day" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula&v=1" alt="Quote of the Day" />
 </p>
 
 ---
