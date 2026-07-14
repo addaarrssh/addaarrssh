@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&theme=dracula&height=220&section=header&text=Adarsh%20Sahu&fontSize=65&v=1" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&theme=dracula&height=220&section=header&text=Adarsh%20Sahu&fontSize=65" alt="Header Banner" />
 </p>
 
 # 💫 About Me:
@@ -21,6 +21,7 @@
 <p align="left">
   <a href="https://bsky.app/profile/addaarrssh"><img src="https://img.shields.io/badge/bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=%23FFFFFF" alt="Bluesky" /></a>
   <a href="https://instagram.com/addaarrssh"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://linkedin.com/in/addaarrssh"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:adarshprivate678@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
@@ -41,22 +42,40 @@
 </p>
 
 # 🚀 Featured Projects:
-<p align="center">
-  <a href="https://github.com/addaarrssh/cartpulse-n8n">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=cartpulse-n8n&theme=dracula&v=1" alt="cartpulse-n8n" height="120" />
-  </a>
-  <a href="https://github.com/addaarrssh/energyshield-ai">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=energyshield-ai&theme=dracula&v=1" alt="energyshield-ai" height="120" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/addaarrssh/ipl-2026-winner-prediction">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=ipl-2026-winner-prediction&theme=dracula&v=1" alt="ipl-2026-winner-prediction" height="120" />
-  </a>
-  <a href="https://github.com/addaarrssh/stock-anomaly-detector">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=stock-anomaly-detector&theme=dracula&v=1" alt="stock-anomaly-detector" height="120" />
-  </a>
-</p>
+<table border="0" width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/addaarrssh/cartpulse-n8n">
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=cartpulse-n8n&theme=dracula&v=1" alt="cartpulse-n8n" height="120" />
+      </a>
+      <br />
+      <sub><i>An AI-powered revenue recovery workflow for D2C brands built using n8n, decision logic, and a dashboard.</i></sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/addaarrssh/energyshield-ai">
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=energyshield-ai&theme=dracula&v=1" alt="energyshield-ai" height="120" />
+      </a>
+      <br />
+      <sub><i>AI-powered energy supply chain resilience optimizer (ET AI Hackathon 2026 submission).</i></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/addaarrssh/ipl-2026-winner-prediction">
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=ipl-2026-winner-prediction&theme=dracula&v=1" alt="ipl-2026-winner-prediction" height="120" />
+      </a>
+      <br />
+      <sub><i>Full-stack IPL winner prediction system using ML, season simulation, and a Streamlit dashboard.</i></sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/addaarrssh/stock-anomaly-detector">
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=stock-anomaly-detector&theme=dracula&v=1" alt="stock-anomaly-detector" height="120" />
+      </a>
+      <br />
+      <sub><i>A machine learning web app detecting unusual price and volume behavior in NSE Indian stocks.</i></sub>
+    </td>
+  </tr>
+</table>
 
 # 📊 GitHub Stats:
 <p align="center">
@@ -66,6 +85,9 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=addaarrssh&theme=dracula&hide_border=false&v=1" alt="Contribution Streak" />
 </p>
+<p align="center">
+  <img src="https://github-stats-extended.vercel.app/api/wakatime?username=addaarrssh&theme=dracula&v=1" alt="WakaTime Stats" />
+</p>
 
 # 🐍 Contribution Snake:
 <picture>
@@ -73,6 +95,13 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/addaarrssh/addaarrssh/output/github-contribution-grid-snake.svg" />
   <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/addaarrssh/addaarrssh/output/github-contribution-grid-snake.svg" />
 </picture>
+
+# 🎵 Currently Playing:
+<p align="center">
+  <a href="https://spotify-github-profile.kittinanx.com/">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_UID_HERE&cover_image=true&theme=dracula" alt="Spotify" />
+  </a>
+</p>
 
 # 💬 Quote of the Day:
 <p align="center">
