@@ -61,14 +61,14 @@
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/addaarrssh/railcross-ai">
-        <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=railcross-ai&theme=dracula&v=2" alt="railcross-ai" height="120" />
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=railcross-ai&theme=dracula&v=3" alt="railcross-ai" height="120" />
       </a>
       <br />
       <sub><i>Railway-crossing delay assistant. A gradient-boosting classifier predicts OPEN / CLOSED and abstains as UNKNOWN when it isn't confident — validated on entirely held-out crossings. Live on Cloudflare Workers.</i></sub>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/addaarrssh/prahari">
-        <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=prahari&theme=dracula&v=2" alt="prahari" height="120" />
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=prahari&theme=dracula&v=3" alt="prahari" height="120" />
       </a>
       <br />
       <sub><i>Dual-engine digital fraud intelligence platform — an explainable rule engine paired with an independent in-browser classifier, benchmarked live on a labelled corpus. ET AI Hackathon 2026.</i></sub>
@@ -77,14 +77,14 @@
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/addaarrssh/energyshield-ai">
-        <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=energyshield-ai&theme=dracula&v=2" alt="energyshield-ai" height="120" />
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=energyshield-ai&theme=dracula&v=3" alt="energyshield-ai" height="120" />
       </a>
       <br />
       <sub><i>Energy supply-chain resilience optimizer. Models a Strait of Hormuz disruption and re-routes crude sourcing via linear programming. FastAPI + React. ET AI Hackathon 2026.</i></sub>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/addaarrssh/stock-anomaly-detector">
-        <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=stock-anomaly-detector&theme=dracula&v=2" alt="stock-anomaly-detector" height="120" />
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=stock-anomaly-detector&theme=dracula&v=3" alt="stock-anomaly-detector" height="120" />
       </a>
       <br />
       <sub><i>Isolation Forest web app that flags unusual price and volume behaviour in NSE-listed stocks — it surfaced real market-moving events with no access to news data.</i></sub>
@@ -93,14 +93,14 @@
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/addaarrssh/ipl-2026-winner-prediction">
-        <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=ipl-2026-winner-prediction&theme=dracula&v=2" alt="ipl-2026-winner-prediction" height="120" />
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=ipl-2026-winner-prediction&theme=dracula&v=3" alt="ipl-2026-winner-prediction" height="120" />
       </a>
       <br />
       <sub><i>Full-stack IPL 2026 forecasting system combining engineered team and venue features, match prediction, season simulation, and an interactive Streamlit dashboard.</i></sub>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/addaarrssh/exam-studdybuddy">
-        <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=exam-studdybuddy&theme=dracula&v=2" alt="exam-studdybuddy" height="120" />
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=addaarrssh&repo=exam-studdybuddy&theme=dracula&v=3" alt="exam-studdybuddy" height="120" />
       </a>
       <br />
       <sub><i>RAG-based exam prep assistant that reads handwritten notes with a vision model, builds a FAISS knowledge base, and generates retrieval-grounded revision material.</i></sub>
@@ -110,7 +110,7 @@
 
 # 📊 Most Used Languages:
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=addaarrssh&theme=dracula&hide_border=false&layout=compact&langs_count=8&v=2" alt="Top Languages" height="150" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=addaarrssh&theme=dracula&hide_border=false&layout=compact&langs_count=8&v=3" alt="Top Languages" height="150" />
 </p>
 
 # 🐍 Contribution Snake:
