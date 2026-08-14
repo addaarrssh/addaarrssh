@@ -1,0 +1,315 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Parchi</title>
+<style>
+  @page { size: 1280px 720px; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+    color: #1c2733;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .slide {
+    width: 1280px; height: 720px;
+    padding: 58px 76px 54px 76px;
+    position: relative;
+    background: #ffffff;
+    page-break-after: always;
+    overflow: hidden;
+  }
+  .slide:last-child { page-break-after: auto; }
+
+  .rule { position: absolute; left: 0; top: 0; width: 10px; height: 720px; background: #14496b; }
+  .pg { position: absolute; right: 40px; bottom: 26px; font-size: 13px; color: #9aa7b4; letter-spacing: .5px; }
+  .foot { position: absolute; left: 76px; bottom: 26px; font-size: 13px; color: #9aa7b4; }
+
+  h2.kicker { font-size: 15px; letter-spacing: 2.4px; text-transform: uppercase;
+              color: #14496b; margin: 0 0 14px 0; font-weight: 700; }
+  h1 { font-size: 40px; line-height: 1.15; margin: 0 0 22px 0; font-weight: 700; letter-spacing: -.4px; }
+  p, li { font-size: 19px; line-height: 1.52; }
+  .lead { font-size: 21px; line-height: 1.5; }
+  strong { font-weight: 700; }
+  em { font-style: italic; }
+  .amber { color: #b45309; }
+  .blue { color: #14496b; }
+  .muted { color: #63707d; }
+
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 13px; }
+
+  .two { display: flex; gap: 46px; }
+  .col { flex: 1; }
+  .col-narrow { width: 400px; flex: none; }
+
+  /* ---- title slide ---- */
+  .title-wrap { height: 100%; display: flex; flex-direction: column; justify-content: center; }
+  .wordmark { font-size: 92px; font-weight: 700; letter-spacing: -2.5px; margin: 0; color: #14496b; }
+  .tagline { font-size: 26px; margin: 16px 0 0 0; color: #2b3b4a; }
+  .titlemeta { margin-top: 46px; font-size: 17px; color: #63707d; line-height: 1.8; }
+  .stripe { width: 96px; height: 6px; background: #b45309; margin: 30px 0 0 0; }
+
+  /* ---- boxes ---- */
+  .card { border: 1.5px solid #d7dee5; border-radius: 6px; padding: 20px 22px; }
+  .card h3 { margin: 0 0 9px 0; font-size: 18px; }
+  .flag { border-left: 5px solid #b45309; background: #fdf6ec; border-radius: 4px; padding: 16px 20px; }
+  .flag .t { font-weight: 700; font-size: 17px; color: #8a4008; margin-bottom: 5px; }
+  .flag .d { font-size: 16px; line-height: 1.45; color: #43301c; }
+
+  /* ---- pipeline ---- */
+  .step { display: flex; gap: 15px; margin-bottom: 15px; align-items: baseline; }
+  .num { width: 28px; height: 28px; flex: none; border-radius: 50%; background: #14496b; color: #fff;
+         font-size: 14px; font-weight: 700; text-align: center; line-height: 28px; }
+  .step .body { font-size: 17px; line-height: 1.44; }
+  .step .body b { display: block; font-size: 17.5px; margin-bottom: 2px; }
+
+  /* ---- phone mock ---- */
+  .phone { width: 300px; border: 2.5px solid #2b3b4a; border-radius: 22px; padding: 14px 13px 16px 13px; background: #fff; }
+  .phone .bar { height: 5px; width: 70px; background: #cbd4dc; border-radius: 4px; margin: 0 auto 14px auto; }
+  .rx { font-size: 13px; color: #63707d; margin-bottom: 10px; }
+  .rxline { font-size: 15px; margin-bottom: 5px; }
+  .alert { margin-top: 12px; background: #fdf6ec; border: 1.5px solid #e6b271; border-radius: 6px; padding: 11px 12px; }
+  .alert .h { font-size: 14px; font-weight: 700; color: #8a4008; margin-bottom: 5px; }
+  .alert .b { font-size: 13.5px; line-height: 1.4; color: #43301c; }
+  .say { margin-top: 10px; font-size: 13px; color: #14496b; border-top: 1px dashed #cbd4dc; padding-top: 9px; line-height: 1.4; }
+
+  /* ---- stack table ---- */
+  table { border-collapse: collapse; width: 100%; }
+  td { padding: 9px 10px 9px 0; vertical-align: top; font-size: 17.5px; border-bottom: 1px solid #e6ebf0; }
+  td.k { width: 168px; color: #14496b; font-weight: 700; }
+
+  .scope { background: #f3f6f9; border-radius: 6px; padding: 18px 22px; }
+  .scope h3 { margin: 0 0 10px 0; font-size: 17px; color: #14496b; }
+  .scope li { font-size: 16.5px; margin-bottom: 8px; }
+
+  .metric { display: flex; gap: 34px; margin: 4px 0 22px 0; }
+  .metric div .n { font-size: 34px; font-weight: 700; color: #14496b; line-height: 1.1; }
+  .metric div .l { font-size: 14.5px; color: #63707d; margin-top: 4px; max-width: 190px; line-height: 1.35; }
+</style>
+</head>
+<body>
+
+<!-- ============ 1 ============ -->
+<div class="slide">
+  <div class="rule"></div>
+  <div class="title-wrap">
+    <p class="wordmark">Parchi</p>
+    <p class="tagline">A prescription reader that catches the medicine you are already taking.</p>
+    <div class="stripe"></div>
+    <div class="titlemeta">
+      All India Hackathon 2026 &nbsp;&middot;&nbsp; Axcentra<br>
+      Track: Healthcare and Digital Public Good<br>
+      Adarsh Sahu
+    </div>
+  </div>
+  <div class="pg">1 / 5</div>
+</div>
+
+<!-- ============ 2 ============ -->
+<div class="slide">
+  <div class="rule"></div>
+  <h2 class="kicker">Problem Statement</h2>
+  <h1>Two doctors, two paper slips, one molecule taken twice.</h1>
+
+  <div class="two">
+    <div class="col">
+      <p>A patient visits a doctor for fever and gets Dolo 650. Ten days later a different doctor,
+      who cannot see the first slip, writes Calpol 650 for body pain. Both are paracetamol.
+      The patient thinks they are two different medicines and takes both.</p>
+
+      <p>This is not a rare accident. It is the normal outcome of a system where the medicine
+      history lives on loose paper:</p>
+
+      <ul>
+        <li>Most OPD prescriptions here are still handwritten, and the pharmacy counter reads them
+        in well under a minute.</li>
+        <li>One molecule is sold under dozens of brand names. Nothing on the strip tells an ordinary
+        patient that two brands are the same drug.</li>
+        <li>Patients above 60 are often on five or more medicines from three or more prescribers.
+        No single person in that chain holds the full list.</li>
+      </ul>
+    </div>
+
+    <div class="col-narrow">
+      <div class="flag" style="margin-bottom:16px;">
+        <div class="t">What goes wrong</div>
+        <div class="d">Paracetamol crossing 4 g a day is toxic to the liver. Two painkillers from the
+        same family stack their stomach and kidney risk. A sedative added on top of another one is
+        how elderly patients fall at night.</div>
+      </div>
+      <div class="card">
+        <h3>Why existing apps do not solve it</h3>
+        <p style="font-size:16.5px; margin:0; line-height:1.45;">Drug interaction checkers need internet
+        and expect you to type correct generic names. Hospital software is built for pharmacists inside
+        hospitals. Neither helps the person standing outside a chemist shop with a folded paper slip
+        and no signal.</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="lead" style="margin-top:24px;"><strong>The information needed to prevent this is already
+  printed on the paper. It just never reaches anything capable of checking it.</strong></p>
+
+  <div class="foot">WHO&rsquo;s Medication Without Harm challenge puts avoidable medication harm among the
+  largest patient safety burdens worldwide.</div>
+  <div class="pg">2 / 5</div>
+</div>
+
+<!-- ============ 3 ============ -->
+<div class="slide">
+  <div class="rule"></div>
+  <h2 class="kicker">Proposed Solution</h2>
+  <h1 style="font-size:36px; margin-bottom:18px;">Photograph the slip. Parchi reads it, remembers it,
+  and warns you before you swallow.</h1>
+
+  <div class="two">
+    <div class="col">
+      <div class="step">
+        <div class="num">1</div>
+        <div class="body"><b>Read</b>On-device OCR pulls out brand names, strengths and timings. Handwriting is
+        messy, so the user confirms the extracted list in two taps instead of trusting the machine blindly.</div>
+      </div>
+      <div class="step">
+        <div class="num">2</div>
+        <div class="body"><b>Resolve</b>Every brand is mapped to its actual composition using an offline
+        brand-to-molecule index built from public drug listings. This mapping is the hard part, and it is
+        what makes the rest possible.</div>
+      </div>
+      <div class="step">
+        <div class="num">3</div>
+        <div class="body"><b>Check</b>Rules run across every prescription the phone has ever scanned, not just
+        today&rsquo;s: repeated molecule, daily dose crossing its ceiling, two drugs of the same class,
+        risky pairs, age and pregnancy flags.</div>
+      </div>
+      <div class="step">
+        <div class="num">4</div>
+        <div class="body"><b>Explain</b>A spoken schedule in the patient&rsquo;s own language plus a printable
+        colour card, so it works for someone who cannot read the slip at all.</div>
+      </div>
+
+      <p style="margin:8px 0 0 0; font-size:17px; line-height:1.45;" class="muted"><strong class="blue">Three
+      rules we set for ourselves:</strong> nothing leaves the phone, everything works with the network off,
+      and Parchi never tells anyone to change a dose. It hands the patient the exact question to ask the
+      pharmacist.</p>
+    </div>
+
+    <div class="col-narrow" style="display:flex; justify-content:flex-end;">
+      <div class="phone">
+        <div class="bar"></div>
+        <div class="rx">Scanned today &nbsp;&middot;&nbsp; 2 medicines</div>
+        <div class="rxline">Dolo 650 &nbsp;<span class="muted">1-0-1, 5 days</span></div>
+        <div class="rxline">Calpol 650 &nbsp;<span class="muted">1-1-1, 3 days</span></div>
+        <div class="alert">
+          <div class="h">Same medicine, two names</div>
+          <div class="b">Both contain paracetamol 650 mg. Together that is 3250 mg a day from these two
+          strips alone.</div>
+        </div>
+        <div class="say"><strong>Ask the chemist:</strong> &ldquo;Both of these are paracetamol. Should I
+        stop one of them?&rdquo;</div>
+        <div style="margin-top:14px; font-size:13px; color:#63707d;">Today&rsquo;s schedule</div>
+        <div style="display:flex; gap:6px; margin-top:7px;">
+          <div style="flex:1; border:1px solid #d7dee5; border-radius:5px; padding:7px 0; text-align:center; font-size:12.5px;">Morning<br><b>1 tab</b></div>
+          <div style="flex:1; border:1px solid #d7dee5; border-radius:5px; padding:7px 0; text-align:center; font-size:12.5px;">Noon<br><b>1 tab</b></div>
+          <div style="flex:1; border:1px solid #d7dee5; border-radius:5px; padding:7px 0; text-align:center; font-size:12.5px;">Night<br><b>1 tab</b></div>
+        </div>
+        <div style="margin-top:11px; background:#14496b; color:#fff; border-radius:20px; text-align:center; padding:8px 0; font-size:13px;">Listen in Hindi</div>
+      </div>
+    </div>
+  </div>
+  <div class="pg">3 / 5</div>
+</div>
+
+<!-- ============ 4 ============ -->
+<div class="slide">
+  <div class="rule"></div>
+  <h2 class="kicker">Tech Stack</h2>
+  <h1>Built to run on a cheap Android phone with the data switched off.</h1>
+
+  <div class="two">
+    <div class="col">
+      <table>
+        <tr><td class="k">App</td><td>Flutter, Android first</td></tr>
+        <tr><td class="k">Text extraction</td><td>ML Kit on-device OCR, with a small handwriting
+          recognition model exported to ONNX for drug names</td></tr>
+        <tr><td class="k">Brand matching</td><td>Offline index with fuzzy and phonetic matching, so
+          &ldquo;DOLO650&rdquo;, &ldquo;dolo 650&rdquo; and a half-wrong OCR read all land on the same molecule</td></tr>
+        <tr><td class="k">Safety rules</td><td>SQLite store of molecules, dose ceilings, class groups
+          and interaction pairs, with the rule engine in Dart</td></tr>
+        <tr><td class="k">Voice</td><td>On-device text to speech, Hindi and English at first</td></tr>
+        <tr><td class="k">Modelling</td><td>Wolfram Language to build the dose ceiling tables and to
+          sanity check the interaction graph before it ships</td></tr>
+        <tr><td class="k">Updates only</td><td>FastAPI and Postgres, used purely to push new drug
+          database versions. The app never depends on it to work.</td></tr>
+      </table>
+    </div>
+
+    <div class="col-narrow">
+      <div class="scope">
+        <h3>What will exist by the end of the hackathon</h3>
+        <ul>
+          <li>An installable APK that runs fully offline</li>
+          <li>Around 1,500 Indian brand names mapped to their molecules</li>
+          <li>Five live checks: repeated molecule, dose ceiling, same class stacking, risky pair,
+          age or pregnancy flag</li>
+          <li>Spoken schedule in Hindi and English</li>
+          <li>Accuracy measured on roughly 50 real prescriptions we collect ourselves</li>
+        </ul>
+      </div>
+      <p style="font-size:16px; margin-top:16px;" class="muted">We are deliberately not building a
+      login, a cloud sync or a chatbot. None of them make the warning arrive faster.</p>
+    </div>
+  </div>
+  <div class="pg">4 / 5</div>
+</div>
+
+<!-- ============ 5 ============ -->
+<div class="slide">
+  <div class="rule"></div>
+  <h2 class="kicker">Impact, Risks and What Comes Next</h2>
+  <h1 style="font-size:36px; margin-bottom:16px;">One warning, delivered at the counter, before the strip
+  is opened.</h1>
+
+  <div class="metric" style="margin-bottom:18px;">
+    <div><div class="n">60+</div><div class="l">Our first users: patients on five or more medicines
+    from more than one doctor</div></div>
+    <div><div class="n">0</div><div class="l">Bytes of prescription data leaving the phone</div></div>
+    <div><div class="n">0 MB</div><div class="l">Internet needed for a check to run</div></div>
+  </div>
+
+  <div class="two">
+    <div class="col">
+      <p style="margin-top:0;"><strong class="blue">How we will know it worked.</strong> We take pairs of
+      real prescriptions written by different doctors for the same person and measure how many duplicate
+      molecules Parchi catches, and how many it misses. That number is the whole product.</p>
+
+      <p><strong class="blue">Where it goes after the hackathon.</strong> The same scan works from the other
+      side of the counter, so chemists and Jan Aushadhi stores become the first distribution route. ASHA
+      workers already carry the elderly patients who need it most. Linking to ABHA later turns a folder of
+      scans into a real medicine history.</p>
+    </div>
+
+    <div class="col-narrow">
+      <div class="card">
+        <h3 class="amber">What could break this</h3>
+        <p style="font-size:16.5px; margin:0 0 10px 0; line-height:1.45;">Bad handwriting will defeat the
+        OCR sometimes. We answer that by making the user confirm the list before any check runs, so a wrong
+        read never turns into a wrong warning.</p>
+        <p style="font-size:16.5px; margin:0; line-height:1.45;">The brand database will never be complete.
+        Unknown brands are shown as unknown rather than as safe, and users can correct a mapping in one tap
+        so the next version is better.</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="lead" style="margin-top:20px; margin-bottom:0;">Nobody is going to hand every patient a
+  pharmacist. A phone camera and a good offline database get surprisingly close.</p>
+
+  <div class="foot">Parchi &nbsp;&middot;&nbsp; Adarsh Sahu &nbsp;&middot;&nbsp; All India Hackathon 2026</div>
+  <div class="pg">5 / 5</div>
+</div>
+
+</body>
+</html>
